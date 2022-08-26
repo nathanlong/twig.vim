@@ -1,4 +1,4 @@
 " vim: set noexpandtab:
-" au BufNewFile,BufRead *.twig set ft=html.twig.js.css
-" Lets not do this multi-file schenanigans, it confuses other parsers and LSPS
+" We're not ft stacking, rather we'll source the html syntax in the normal syntax
+" The stack 'html.css.js.twig' confuses certain LSPs as of 08/2022
 au BufNewFile,BufRead *.twig set ft=twig

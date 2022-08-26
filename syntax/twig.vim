@@ -5,6 +5,10 @@
 " URL:             https://github.com/nelsyeung/twig.vim
 " Acknowledgement: Based on evidens/vim-twig
 
+
+" This is mostly the other syntax I care about
+runtime! syntax/html.vim
+
 syntax case match
 
 " Twig template built-in tags and parameters (without filter, macro, is and raw, they have special treatment)
