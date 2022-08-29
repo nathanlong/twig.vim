@@ -6,3 +6,4 @@ Changes:
 
 - Single filetype so LSPs don't derp
 - Source HTML syntax from syntax file directly
+- Source HTML indent rules directly as well

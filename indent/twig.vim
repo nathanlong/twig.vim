@@ -3,6 +3,9 @@
 " Language: Twig
 " Acknowledgement: Based on lumiliet/vim-twig
 
+" Load html indent rules too
+runtime! indent/html.vim
+
 let s:baseIndentExpr=&indentexpr
 setlocal indentexpr=GetTwigIndent(v:lnum)
 
